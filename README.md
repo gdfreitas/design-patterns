@@ -30,5 +30,5 @@
 - Strategy
 - Visitor
 
-###Escopos
+### Escopos
 **Classe** e _Objeto_
