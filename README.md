@@ -20,7 +20,10 @@
 ## Comportamental
 * **Interpreter**
 * **Template Method**
-- Chain of Responsibility
+- Chain of Responsibility: evitar o acoplamento entre remetente (quem deseja algo) de uma solicitação ao seu receptor (quem irá fazer algo),
+ao permitir que mais de um objeto tenha a oportunidade de manipular a solicitação através do encadeamento de objetos receptores, 
+passando a solicitação através da cadeia até que algum objeto à trate.
+
 - Command
 - Iterator
 - Mediator
