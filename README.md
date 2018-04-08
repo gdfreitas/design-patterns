@@ -24,7 +24,8 @@
 ao permitir que mais de um objeto tenha a oportunidade de manipular a solicitação através do encadeamento de objetos receptores, 
 passando a solicitação através da cadeia até que algum objeto à trate.
 
-- Command
+- Command: evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar a solicitação. 
+Encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate.
 - Iterator
 - Mediator
 - Memento
