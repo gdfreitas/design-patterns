@@ -8,7 +8,7 @@ deixando a responsabilidade de instanciação para subclasses.
 suas classes concretas.
 - Builder: separa a construção de um objeto complexo de sua representação, de modo que o mesmo processo possa criar representações diferentes.
 - Prototype: especifica os tipos de objetos a serem criados utilizando uma instância protótipo e criando novos objetos copiando este protótipo.
-- Singleton: Garante que uma classe tenha somente uma instância e fornece um ponto de acesso global a ela.
+- Singleton: garante que uma classe tenha somente uma instância e fornece um ponto de acesso global a ela.
 
 ## Estrutural
 Lidam com a composição de classes ou objetos:
@@ -16,7 +16,8 @@ Lidam com a composição de classes ou objetos:
 - Object Adapter
 - Bridge
 - Composite
-- Decorator
+- Decorator: atribui responsabilidades adicionais a um objeto dinamicamente, fornecem uma alternativa flexível a sub-classes 
+para extensão de funcionalidade.
 - Facade
 - Flyweight
 - Proxy
