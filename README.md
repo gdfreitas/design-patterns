@@ -4,7 +4,8 @@
 Preocupam-se com o processo de criação de objetos:
 * **Factory Method**: define uma interface para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar, 
 deixando a responsabilidade de instanciação para subclasses.
-- Abstract Factory
+- Abstract Factory: provê uma interface para criar famílias de objetos relacionados ou inter-dependentes sem especificar 
+suas classes concretas.
 - Builder
 - Prototype
 - Singleton
