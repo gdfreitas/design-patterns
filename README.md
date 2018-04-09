@@ -2,7 +2,8 @@
 
 ## Criação
 Preocupam-se com o processo de criação de objetos:
-* **Factory Method**
+* **Factory Method**: define uma interface para criar um objeto, mas deixa as subclasses decidirem qual classe instanciar, 
+deixando a responsabilidade de instanciação para subclasses.
 - Abstract Factory
 - Builder
 - Prototype
