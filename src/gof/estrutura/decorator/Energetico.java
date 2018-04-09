@@ -1,4 +1,4 @@
-package gof.comportamento.decorator;
+package gof.estrutura.decorator;
 
 import java.math.BigDecimal;
 

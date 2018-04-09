@@ -1,4 +1,4 @@
-package gof.comportamento.decorator;
+package gof.estrutura.decorator;
 
 /**
  * @author gabriel.freitas
