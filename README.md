@@ -6,7 +6,7 @@ Preocupam-se com o processo de criação de objetos:
 deixando a responsabilidade de instanciação para subclasses.
 - Abstract Factory: provê uma interface para criar famílias de objetos relacionados ou inter-dependentes sem especificar 
 suas classes concretas.
-- Builder
+- Builder: separa a construção de um objeto complexo de sua representação, de modo que o mesmo processo possa criar representações diferentes.
 - Prototype
 - Singleton
 
