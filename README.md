@@ -1,6 +1,7 @@
 # G.O.F Design Patterns
 
 ## Criação
+Preocupam-se com o processo de criação de objetos:
 * **Factory Method**
 - Abstract Factory
 - Builder
@@ -8,6 +9,7 @@
 - Singleton
 
 ## Estrutural
+Lidam com a composição de classes ou objetos:
 * **Class Adapter**
 - Object Adapter
 - Bridge
@@ -18,6 +20,7 @@
 - Proxy
 
 ## Comportamental
+Caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades:
 * **Interpreter**
 * **Template Method**
 - Chain of Responsibility: evitar o acoplamento entre remetente (quem deseja algo) de uma solicitação ao seu receptor (quem irá fazer algo),
