@@ -7,7 +7,7 @@ deixando a responsabilidade de instanciação para subclasses.
 - Abstract Factory: provê uma interface para criar famílias de objetos relacionados ou inter-dependentes sem especificar 
 suas classes concretas.
 - Builder: separa a construção de um objeto complexo de sua representação, de modo que o mesmo processo possa criar representações diferentes.
-- Prototype
+- Prototype: especifica os tipos de objetos a serem criados utilizando uma instância protótipo e criando novos objetos copiando este protótipo.
 - Singleton
 
 ## Estrutural
