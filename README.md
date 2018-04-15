@@ -12,7 +12,7 @@ suas classes concretas.
 
 ## Estrutural
 Lidam com a composição de classes ou objetos:
-- Adapter: converte a interface de uma classe em outra interface com a qual os clientes estão prontos para lidar e permite que classes trabalhem 
+- **_Adapter_**: converte a interface de uma classe em outra interface com a qual os clientes estão prontos para lidar e permite que classes trabalhem 
 conjuntamente apesar de interfaces incompatíveis.
 - Bridge: desacopla uma abstração de sua implementação de forma que as duas possam mudar independente uma da outra.
 - Composite
