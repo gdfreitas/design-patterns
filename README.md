@@ -14,7 +14,7 @@ suas classes concretas.
 Lidam com a composição de classes ou objetos:
 - Adapter: converte a interface de uma classe em outra interface com a qual os clientes estão prontos para lidar e permite que classes trabalhem 
 conjuntamente apesar de interfaces incompatíveis.
-- Bridge
+- Bridge: desacopla uma abstração de sua implementação de forma que as duas possam mudar independente uma da outra.
 - Composite
 - Decorator: atribui responsabilidades adicionais a um objeto dinamicamente, fornecem uma alternativa flexível a sub-classes 
 para extensão de funcionalidade.
