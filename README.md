@@ -20,7 +20,7 @@ conjuntamente apesar de interfaces incompatíveis.
 para extensão de funcionalidade.
 - Facade
 - Flyweight
-- Proxy
+- Proxy: provê um objeto procurador ou placeholder para um outro objeto para controlar o acesso a ele.
 
 ## Comportamental
 Caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades:
