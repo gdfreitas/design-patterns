@@ -20,7 +20,7 @@ objetos individuais e composições de objetos uniformemente.
 - **Decorator**: atribui responsabilidades adicionais a um objeto dinamicamente, fornecem uma alternativa flexível a sub-classes 
 para extensão de funcionalidade.
 - **Facade**: provê uma interface unificada para um conjunto de interfaces num subsistema, define uma interface de mais alto nível, deixando o subsistema mais fácil de usar.
-- **Flyweight**:
+- **Flyweight**: usa o compartilhamento para dar suporte eficiente ao uso de um grande número de objetos de granularidade pequena.
 - **Proxy**: provê um objeto procurador ou placeholder para um outro objeto para controlar o acesso a ele.
 
 ## Comportamental
