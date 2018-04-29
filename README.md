@@ -27,12 +27,12 @@ para extensão de funcionalidade.
 Caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades:
 - **_Interpreter:_** dada uma linguagem, define uma representação de sua gramática e um interpretador que usa a representação da gramática para interpretar sentenças da linguagem.
 - **_Template Method_** define o esqueleto de um algoritmo numa operação, deixando que subclasses completem algumas das etapas. Permite que subclasses redefinem determinadas etapas de um algoritmo sem alterar a estrutura do algoritmo.
-- **Chain of Responsibility**: evitar o acoplamento entre remetente (quem deseja algo) de uma solicitação ao seu receptor (quem irá fazer algo),
+- **Chain of Responsibility:** evitar o acoplamento entre remetente (quem deseja algo) de uma solicitação ao seu receptor (quem irá fazer algo),
 ao permitir que mais de um objeto tenha a oportunidade de manipular a solicitação através do encadeamento de objetos receptores, 
 passando a solicitação através da cadeia até que algum objeto à trate.
-- **Command**: evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar a solicitação. 
+- **Command:** evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar a solicitação. 
 Encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate.
-- **Iterator**
+- **Iterator:** provê uma forma de acessar os elementos de uma coleção de objetos seqüencialmente sem expor sua representação subjacente.
 - **Mediator**
 - **Memento**
 - **Observer**
