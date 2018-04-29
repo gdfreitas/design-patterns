@@ -37,7 +37,7 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 - **Memento:** sem violar o encapsulamento, capturar e externalizar um estado interno de um objeto, de maneira que o objeto possa ser restaurado para esse estado mais tarde.
 - **Observer:** definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
 - **State:** permite a um objeto alterar seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe.
-- **Strategy:**
+- **Strategy:** definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.
 - **Visitor:**
 
 
