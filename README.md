@@ -34,7 +34,7 @@ passando a solicitação através da cadeia até que algum objeto à trate.
 Encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate.
 - **Iterator:** provê uma forma de acessar os elementos de uma coleção de objetos seqüencialmente sem expor sua representação subjacente.
 - **Mediator:** definir um objeto que encapsula a forma como um conjunto de objetos interage. Promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permitir variar suas interações independentemente.
-- **Memento:**
+- **Memento:** sem violar o encapsulamento, capturar e externalizar um estado interno de um objeto, de maneira que o objeto possa ser restaurado para esse estado mais tarde.
 - **Observer:**
 - **State:**
 - **Strategy:**
