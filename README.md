@@ -33,12 +33,12 @@ passando a solicitação através da cadeia até que algum objeto à trate.
 - **Command:** evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar a solicitação. 
 Encadear os objetos receptores, passando a solicitação ao longo da cadeia até que um objeto a trate.
 - **Iterator:** provê uma forma de acessar os elementos de uma coleção de objetos seqüencialmente sem expor sua representação subjacente.
-- **Mediator**
-- **Memento**
-- **Observer**
-- **State**
-- **Strategy**
-- **Visitor**
+- **Mediator:** definir um objeto que encapsula a forma como um conjunto de objetos interage. Promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permitir variar suas interações independentemente.
+- **Memento:**
+- **Observer:**
+- **State:**
+- **Strategy:**
+- **Visitor:**
 
 
 ### Referências
