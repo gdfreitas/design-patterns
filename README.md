@@ -19,7 +19,7 @@ conjuntamente apesar de interfaces incompatíveis.
 objetos individuais e composições de objetos uniformemente.
 - **Decorator**: atribui responsabilidades adicionais a um objeto dinamicamente, fornecem uma alternativa flexível a sub-classes 
 para extensão de funcionalidade.
-- **Facade**:
+- **Facade**: provê uma interface unificada para um conjunto de interfaces num subsistema, define uma interface de mais alto nível, deixando o subsistema mais fácil de usar.
 - **Flyweight**:
 - **Proxy**: provê um objeto procurador ou placeholder para um outro objeto para controlar o acesso a ele.
 
