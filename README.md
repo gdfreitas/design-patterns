@@ -36,7 +36,7 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 - **Mediator:** definir um objeto que encapsula a forma como um conjunto de objetos interage. Promove o acoplamento fraco ao evitar que os objetos se refiram uns aos outros explicitamente e permitir variar suas interações independentemente.
 - **Memento:** sem violar o encapsulamento, capturar e externalizar um estado interno de um objeto, de maneira que o objeto possa ser restaurado para esse estado mais tarde.
 - **Observer:** definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
-- **State:**
+- **State:** permite a um objeto alterar seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe.
 - **Strategy:**
 - **Visitor:**
 
