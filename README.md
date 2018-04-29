@@ -38,7 +38,7 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 - **Observer:** definir uma dependência um para muitos entre objetos, de maneira que quando um objeto muda de estado todos os seus dependentes são notificados e atualizados automaticamente.
 - **State:** permite a um objeto alterar seu comportamento quando seu estado interno muda. O objeto parecerá ter mudado de classe.
 - **Strategy:** definir uma família de algoritmos, encapsular cada uma delas e torná-las intercambiáveis. Permite que o algoritmo varie independentemente dos clientes que o utilizam.
-- **Visitor:**
+- **Visitor:** representar uma operação a ser executada nos elementos de uma estrutura de objetos. Permite definir uma nova operação sem mudar as classes dos elementos sobre os quais opera.
 
 
 ### Referências
