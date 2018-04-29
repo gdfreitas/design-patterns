@@ -1,4 +1,4 @@
-package gof.estrutura.interpreter;
+package gof.comportamento.interpreter;
 
 /**
  * @author gabriel.freitas

@@ -1,33 +1,33 @@
-package gof.estrutura.interpreter;
+package gof.comportamento.interpreter;
 
 /**
  * @author gabriel.freitas
  */
-public class TresDigitoRomano extends NumeroRomanoInterpreter {
+public class UmDigitoRomano extends NumeroRomanoInterpreter {
 
     @Override
     public String um() {
-        return "C";
+        return "I";
     }
 
     @Override
     public String quatro() {
-        return "CD";
+        return "IV";
     }
 
     @Override
     public String cinco() {
-        return "D";
+        return "V";
     }
 
     @Override
     public String nove() {
-        return "CM";
+        return "IX";
     }
 
     @Override
     public int multiplicador() {
-        return 100;
+        return 1;
     }
 
 }
