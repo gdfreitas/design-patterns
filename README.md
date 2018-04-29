@@ -39,3 +39,9 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 - **State**
 - **Strategy**
 - **Visitor**
+
+
+### Referências
+- https://github.com/csparpa/gof-design-patterns
+- https://github.com/MarcosX/Padr-es-de-Projeto
+- https://cezbatistao.wordpress.com/2016/05/21/design-patterns/
