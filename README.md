@@ -25,8 +25,8 @@ para extensão de funcionalidade.
 
 ## Comportamental
 Caracterizam as maneiras pelas quais classes ou objetos interagem e distribuem responsabilidades:
-- **Interpreter**
-- **Template Method**
+- **_Interpreter:_** dada uma linguagem, define uma representação de sua gramática e um interpretador que usa a representação da gramática para interpretar sentenças da linguagem.
+- **_Template Method_**
 - **Chain of Responsibility**: evitar o acoplamento entre remetente (quem deseja algo) de uma solicitação ao seu receptor (quem irá fazer algo),
 ao permitir que mais de um objeto tenha a oportunidade de manipular a solicitação através do encadeamento de objetos receptores, 
 passando a solicitação através da cadeia até que algum objeto à trate.
