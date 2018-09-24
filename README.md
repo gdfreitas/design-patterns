@@ -1,4 +1,10 @@
-# G.O.F Design Patterns
+# Design Patterns
+
+Em Engenharia de Software os _design patterns_ (padrões de projetos) são propostas/modelos utilizados para situações problemas que que ocorrem com bastante frequência no desenvolvimento de software.
+
+Estes padrões podem acelerar o processo de desenvolvimento, provendo paradigmas de desenvolvimento testados e comprovados. 
+
+O design efetivo de software requer a consideração de problemas que podem não se tornarem visíveis em um primeiro momento. A utilização de _design patterns_ ajuda a evitar estes problemas sutis que causam grandes impactos e também facilita a legibilidade do código.  
 
 ## Criação
 Preocupam-se com o processo de criação de objetos:
@@ -42,7 +48,5 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 
 
 ### Referências
-- [Design Patterns in Object Oriented Programming - Christopher Okhravi](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
-- https://github.com/csparpa/gof-design-patterns
-- https://github.com/MarcosX/Padr-es-de-Projeto
-- https://cezbatistao.wordpress.com/2016/05/21/design-patterns/
+- [Design Patterns in Object Oriented Programming - Christopher Okhravi @ Youtube](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+- [Design patterns implemented in Java - Iluwatar @ GitHub](https://github.com/iluwatar/java-design-patterns)
