@@ -42,6 +42,7 @@ Encadear os objetos receptores, passando a solicitação ao longo da cadeia até
 
 
 ### Referências
+- [Design Patterns in Object Oriented Programming - Christopher Okhravi](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
 - https://github.com/csparpa/gof-design-patterns
 - https://github.com/MarcosX/Padr-es-de-Projeto
 - https://cezbatistao.wordpress.com/2016/05/21/design-patterns/

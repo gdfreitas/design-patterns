@@ -1,4 +1,4 @@
-package gof.comportamento.strategy;
+package gof.comportamento.strategy.exemplosalario;
 
 /**
  * @author gabriel.freitas
