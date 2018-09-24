@@ -24,20 +24,20 @@ public class FabricaDeCarro {
     }
 
     public String criarHonda() {
-        return "Carro Honda #" + ++qtdHonda + " criado.";
+        return "Car Honda #" + ++qtdHonda + " criado.";
     }
 
     public String criarJeep() {
-        return "Carro Jeep #" + ++qtdJeep + " criado.";
+        return "Car Jeep #" + ++qtdJeep + " criado.";
     }
 
     public String criarVolkswagen() {
-        return "Carro Volkswagen #" + ++qtdVolkswagen + " criado.";
+        return "Car Volkswagen #" + ++qtdVolkswagen + " criado.";
     }
 
     @Override
     public String toString() {
-        return "FabricaDeCarro{" +
+        return "CarFactory{" +
                 "qtdHonda=" + qtdHonda +
                 ", qtdJeep=" + qtdJeep +
                 ", qtdVolkswagen=" + qtdVolkswagen +
