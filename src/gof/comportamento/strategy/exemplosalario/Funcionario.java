@@ -5,36 +5,33 @@ package gof.comportamento.strategy.exemplosalario;
  */
 public class Funcionario {
 
-    public static final int DESENVOLVEDOR = 1;
-    public static final int GERENTE = 2;
-    public static final int DBA = 3;
-    protected double salarioBase;
-    protected int cargo;
-    private CalculaImposto estrategiaDeCalculo;
+    private Cargo cargo;
+    private double salarioBase;
+    private ICalculoImposto estrategiaDeCalculo;
 
-    public Funcionario(int cargo, double salarioBase) {
+    public Funcionario(Cargo cargo, double salarioBase) {
         this.salarioBase = salarioBase;
 
+        // define estratégia de cálculo do salário
         switch (cargo) {
-            case DESENVOLVEDOR:
-                estrategiaDeCalculo = new CalculoImpostoQuinzeOuDez();
-                cargo = DESENVOLVEDOR;
+
+            case PROGRAMADOR:
+            case ANALISTA_SISTEMAS:
+                estrategiaDeCalculo = new QuinzeOuDezStrategy();
                 break;
+
+            case ARQUITETO_SISTEMAS:
             case DBA:
-                estrategiaDeCalculo = new CalculoImpostoQuinzeOuDez();
-                cargo = DBA;
+                estrategiaDeCalculo = new VinteOuQuinzeStrategy();
                 break;
-            case GERENTE:
-                estrategiaDeCalculo = new CalculoImpostoVinteOuQuinze();
-                cargo = GERENTE;
-                break;
+
             default:
                 throw new RuntimeException("cargo não encontrado");
         }
     }
 
     public double calcularSalarioComImposto() {
-        return estrategiaDeCalculo.calculaSalarioComImposto(this);
+        return estrategiaDeCalculo.calcularSalarioComImposto(this);
     }
 
     public double getSalarioBase() {
