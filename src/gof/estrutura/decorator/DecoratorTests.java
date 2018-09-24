@@ -3,23 +3,24 @@ package gof.estrutura.decorator;
 /**
  * @author gabriel.freitas
  */
-@SuppressWarnings("all")
 public class DecoratorTests {
 
     public static void main(String[] args) {
 
-        // incia somente com cachaça
-        Coquetel coquetel = new Vodka();
-        System.out.println(coquetel.getNome() + " = " + coquetel.getPreco());
+        Beverage espresso = new Espresso();
+        System.out.println(espresso.getDescription() + " = " + espresso.getPrice());
 
-        // decora com energético
-        coquetel = new Energetico(coquetel);
-        System.out.println(coquetel.getNome() + " = " + coquetel.getPreco());
+        Beverage expressoWithCaramel = new CaramelCondiment(espresso);
+        System.out.println(expressoWithCaramel.getDescription() + " = " + expressoWithCaramel.getPrice());
 
-        // decora com cubos de gelo
-        coquetel = new CuboDeGelo(coquetel, 3);
-        System.out.println(coquetel.getNome() + " = " + coquetel.getPreco());
+        Beverage decaf = new Decaf();
+        System.out.println(decaf.getDescription() + " = " + decaf.getPrice());
 
+        Beverage decafWithSoyMilk = new SoyMilkCondiment(decaf);
+        System.out.println(decafWithSoyMilk.getDescription() + " = " + decafWithSoyMilk.getPrice());
+
+        Beverage decafWithSoyMilkAndCaramel = new CaramelCondiment(decafWithSoyMilk);
+        System.out.println(decafWithSoyMilkAndCaramel.getDescription() + " = " + decafWithSoyMilkAndCaramel.getPrice());
     }
 
 }

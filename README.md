@@ -23,7 +23,7 @@ Lidam com a composição de classes ou objetos:
 - **_Adapter_**: converte a interface de uma classe em outra interface com a qual os clientes estão prontos para lidar e permite que classes trabalhem conjuntamente apesar de interfaces incompatíveis.
 - **Bridge**: desacopla uma abstração de sua implementação de forma que as duas possam mudar independente uma da outra.
 - **Composite**: compõe objetos em estruturas de árvore para representar hierarquias Parte-Todo, e permite que clientes tratem objetos individuais e composições de objetos uniformemente.
-- **Decorator**: atribui responsabilidades adicionais a um objeto dinamicamente, fornecem uma alternativa flexível a sub-classes para extensão de funcionalidade.
+- **Decorator**: atribui responsabilidades adicionais a um objeto dinâmicamente, fornece uma alternativa flexível a sub-classes para extensão de funcionalidade.
 - **Facade**: provê uma interface unificada para um conjunto de interfaces num subsistema, define uma interface de mais alto nível, deixando o subsistema mais fácil de usar.
 - **Flyweight**: usa o compartilhamento para dar suporte eficiente ao uso de um grande número de objetos de granularidade pequena.
 - **Proxy**: provê um objeto procurador ou placeholder para um outro objeto para controlar o acesso a ele.
