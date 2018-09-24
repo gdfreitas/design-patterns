@@ -1,8 +1,8 @@
 # Design Patterns
 
-Em Engenharia de Software os _design patterns_ (padrões de projetos) são propostas/modelos utilizados para situações problemas que que ocorrem com bastante frequência no desenvolvimento de software.
+Em Engenharia de Software os _design patterns_ (padrões de projetos) são propostas/modelos utilizados para situações problemas que que ocorrem com bastante frequência no desenvolvimento de softwares baseados no paradigma de Programação Orientada à Objetos.
 
-Estes padrões podem acelerar o processo de desenvolvimento, provendo paradigmas de desenvolvimento testados e comprovados. 
+Estes padrões podem acelerar o processo de desenvolvimento, provendo paradigmas de desenvolvimento testados e comprovados.
 
 O design efetivo de software requer a consideração de problemas que podem não se tornarem visíveis em um primeiro momento. A utilização de _design patterns_ ajuda a evitar estes problemas sutis que causam grandes impactos e também facilita a legibilidade do código.  
 
