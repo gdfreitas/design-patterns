@@ -1,9 +1,9 @@
-package gof.comportamento.strategy.exemplopatos;
+package gof.comportamento.strategy.ducksample;
 
-import gof.comportamento.strategy.exemplopatos.ducks.CityDuck;
-import gof.comportamento.strategy.exemplopatos.ducks.CloudDuck;
-import gof.comportamento.strategy.exemplopatos.ducks.RiverDuck;
-import gof.comportamento.strategy.exemplopatos.ducks.WildDuck;
+import gof.comportamento.strategy.ducksample.ducks.CityDuck;
+import gof.comportamento.strategy.ducksample.ducks.CloudDuck;
+import gof.comportamento.strategy.ducksample.ducks.RiverDuck;
+import gof.comportamento.strategy.ducksample.ducks.WildDuck;
 
 public class StrategyTests {
 

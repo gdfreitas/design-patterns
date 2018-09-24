@@ -1,4 +1,4 @@
-package gof.comportamento.strategy.exemplopatos.fly;
+package gof.comportamento.strategy.ducksample.fly;
 
 public class JetFlyStrategy implements IFlyBehavior {
 

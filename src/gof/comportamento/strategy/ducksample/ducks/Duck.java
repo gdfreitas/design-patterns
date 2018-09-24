@@ -1,7 +1,7 @@
-package gof.comportamento.strategy.exemplopatos.ducks;
+package gof.comportamento.strategy.ducksample.ducks;
 
-import gof.comportamento.strategy.exemplopatos.fly.IFlyBehavior;
-import gof.comportamento.strategy.exemplopatos.quack.IQuackBehavior;
+import gof.comportamento.strategy.ducksample.fly.IFlyBehavior;
+import gof.comportamento.strategy.ducksample.quack.IQuackBehavior;
 
 public abstract class Duck {
 

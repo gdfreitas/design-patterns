@@ -1,4 +1,4 @@
-package gof.comportamento.observer;
+package gof.comportamento.observer.exemplo1;
 
 import java.util.ArrayList;
 import java.util.List;

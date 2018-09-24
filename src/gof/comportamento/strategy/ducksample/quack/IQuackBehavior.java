@@ -1,4 +1,4 @@
-package gof.comportamento.strategy.exemplopatos.quack;
+package gof.comportamento.strategy.ducksample.quack;
 
 public interface IQuackBehavior {
 
